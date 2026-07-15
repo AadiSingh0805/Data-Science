@@ -12,3 +12,12 @@ The analysis includes:
 - z-test / hypothesis testing for significance
 - confidence interval estimation
 - practical significance check using MDE
+
+### Superstore Sales Analysis
+A sales exploration notebook built around the Superstore dataset. It covers data cleaning, customer and segment breakdowns, shipping mode analysis, state and city summaries, product/category performance, and time-based sales trends.
+
+The analysis includes:
+- sales by state visualization for the USA
+- monthly sales heatmap by year
+- repeat customer and customer sales analysis
+- yearly and monthly sales trend charts
