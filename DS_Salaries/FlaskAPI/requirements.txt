@@ -1,0 +1,21 @@
+blinker @ file:///C:/miniconda3/conda-bld/blinker_1764332307774/work
+click @ file:///C:/Users/task_178117572493381/croot/click_1781176571315/work
+colorama @ file:///C:/Users/dev-admin/buildout/croot/colorama_1759952627215/work
+Flask @ file:///C:/Users/task_177209710121264/croot/flask_1772097173934/work
+itsdangerous @ file:///C:/Users/dev-admin/buildout/croot/itsdangerous_1759965296215/work
+Jinja2 @ file:///C:/Users/dev-admin/buildout/croot/jinja2_1761938590194/work
+joblib @ file:///C:/Users/task_176786753226112/croot/joblib_1767868141093/work
+MarkupSafe @ file:///C:/Users/task_178239079824739/croot/markupsafe_1782390881383/work
+mkl-service==2.7.2
+mkl_fft @ file:///C:/Users/task_177730050190117/croot/mkl_fft_1777300571710/work
+mkl_random @ file:///C:/Users/task_178236954965687/croot/mkl_random_1782369674093/work
+narwhals @ file:///C:/Users/task_Ahk_fpuEQZ-ql_0/croot/narwhals_1783944194288/work
+numpy @ file:///C:/Users/task_XQ74FEIlTmC-z_0/croot/numpy_and_numpy_base_1783953967606/work/dist/numpy-2.5.1-cp314-cp314-win_amd64.whl#sha256=0eb8d5d520a6841bac8f03b2bc4b6a286d7ffd26d64320c3930a05aff2804a8b
+pandas @ file:///C:/Users/task_178007176530389/croot/pandas_1780071914142/work
+python-dateutil @ file:///C:/Users/dev-admin/buildout/croot/python-dateutil_1759954839763/work
+scikit-learn @ file:///C:/Users/task_178153002679570/croot/scikit-learn_1781530290720/work
+scipy @ file:///C:/Users/task_178236955794638/croot/scipy_1782369647777/work/dist/scipy-1.18.0-cp314-cp314-win_amd64.whl#sha256=a658e9d3fdbad52e9b586cdba864b1f0e2e29c30fbaa582805d2b0844c0de9b4
+six @ file:///C:/Users/dev-admin/buildout/croot/six_1759954493303/work
+threadpoolctl @ file:///C:/miniconda3/conda-bld/threadpoolctl_1764361788517/work
+tzdata @ file:///home/task_177806041933677/croot/python-tzdata_1778060738968/work
+Werkzeug @ file:///C:/Users/task_177373672359965/croot/werkzeug_1773736838630/work
