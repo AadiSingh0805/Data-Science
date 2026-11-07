@@ -219,3 +219,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# PDF Curriculum & Blueprints
+*.pdf
+Data Science Flagship Portfolio & Socratic Learning Curriculum-1.pdf
+
+# Large Datasets & Archives (>100MB exceeds GitHub limits)
+*.zip
+*.parquet
+*.tar.gz
+Enterprise Credit Risk & Production Drift Monitoring Engine/*.csv
+Enterprise Credit Risk & Production Drift Monitoring Engine/data/
+
+
