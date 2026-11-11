@@ -255,3 +255,4 @@ with tab3:
     sim_profit = 15000 - 3000000 * (taus - 0.1337)**2
     chart_df = pd.DataFrame({"Rejection Threshold (τ)": taus, "Portfolio Net Profit ($)": sim_profit})
     st.line_chart(chart_df.set_index("Rejection Threshold (τ)"))
+

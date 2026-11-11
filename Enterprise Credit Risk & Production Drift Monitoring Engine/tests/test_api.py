@@ -72,3 +72,4 @@ def test_predict_pydantic_schema_validation_error():
     response = client.post("/v1/predict", json=payload)
     # Pydantic must reject with 422 before touching the model
     assert response.status_code == 422
+

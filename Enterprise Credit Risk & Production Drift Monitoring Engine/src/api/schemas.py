@@ -50,3 +50,4 @@ class DriftCheckResponse(BaseModel):
     max_psi: float
     feature_metrics: Dict[str, Any]
     alert_triggered: bool
+
