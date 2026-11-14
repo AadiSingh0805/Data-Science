@@ -1,0 +1,29 @@
+UNITED STATES SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, D.C. 20549
+FORM 10-K
+ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+FOR THE FISCAL YEAR ENDED SEPTEMBER 28, 2024
+COMMISSION FILE NUMBER 001-36743
+APPLE INC.
+
+PART I
+
+ITEM 1. BUSINESS
+
+Company Products and Silicon Architecture
+Apple designs, manufactures, and markets smartphones (iPhone), personal computers (Mac), tablets (iPad), and wearables. Central to our hardware product differentiation is Apple Silicon, including the A17 Pro, A18, and M4 system-on-chip (SoC) architectures.
+
+Supply Chain and Manufacturing
+Substantially all of our custom silicon microprocessors are manufactured by a single foundry partner: Taiwan Semiconductor Manufacturing Company (TSMC). TSMC fabricates our A-series and M-series chips utilizing leading-edge 3-nanometer and 4-nanometer node processes at its semiconductor fabrication facilities in Taiwan.
+
+Final Assembly and Component Sourcing
+A substantial majority of the final assembly of our products is performed by third-party outsourcing partners, primarily Hon Hai Precision Industry Co., Ltd. (trading as Foxconn), with significant assembly operations concentrated in Zhengzhou, Henan Province, China, as well as facilities in Shenzhen and India. We also contract with Pegatron Corporation and Luxshare Precision Industry Co., Ltd. for consumer device assembly. Critical display modules are procured from Samsung Display and LG Display, while specialized protective glass is supplied by Corning Incorporated. Wireless modem chips are currently supplied by Qualcomm Incorporated.
+
+ITEM 1A. RISK FACTORS
+
+Concentration of silicon foundry manufacturing with TSMC creates acute operational risk.
+We rely on TSMC as the exclusive foundry for all Apple-designed custom silicon. If TSMC experiences manufacturing disruptions at its fabrication plants in Hsinchu or Tainan due to natural disasters, facility accidents, labor disputes, or cross-strait geopolitical conflicts between China and Taiwan, our ability to supply iPhones, iPads, and Mac computers would be severely curtailed. Furthermore, TSMC's manufacturing capability is inextricably linked to equipment availability from photolithography supplier ASML.
+
+Final assembly concentration in Foxconn facilities in China.
+The assembly of our flagship iPhone models is heavily concentrated at Foxconn's mega-facility in Zhengzhou, China. Any supply disruption, pandemic-related closure, labor unrest, or municipal power grid outage at Foxconn Zhengzhou impairs our global retail fulfillment and harms quarterly operating results.
+

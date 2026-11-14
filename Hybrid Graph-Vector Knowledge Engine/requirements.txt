@@ -1,0 +1,12 @@
+pydantic>=2.10.0
+qdrant-client>=1.12.0
+sentence-transformers>=3.0.0
+networkx>=3.2.0
+neo4j>=5.20.0
+fastapi>=0.115.0
+uvicorn>=0.30.0
+streamlit>=1.39.0
+pandas>=2.2.0
+numpy>=1.26.0
+pytest>=8.3.0
+

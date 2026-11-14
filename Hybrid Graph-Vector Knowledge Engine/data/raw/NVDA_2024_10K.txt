@@ -1,0 +1,36 @@
+UNITED STATES SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, D.C. 20549
+FORM 10-K
+ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+FOR THE FISCAL YEAR ENDED JANUARY 28, 2024
+COMMISSION FILE NUMBER 000-23985
+NVIDIA CORPORATION
+
+PART I
+
+ITEM 1. BUSINESS
+
+Overview
+NVIDIA Corporation pioneered accelerated computing to tackle challenges that ordinary computers cannot solve. Our platforms address gaming, professional visualization, data center AI infrastructure, and automotive systems. Our flagship data center architectures include the NVIDIA Hopper HGX H100 and H200 GPU platforms, as well as our next-generation Blackwell architecture, which interconnects multiple GPU dies via high-bandwidth NVLink connections.
+
+Supply Chain and Manufacturing Architecture
+We operate a fabless semiconductor business model and depend exclusively upon independent third-party foundries and packaging contractors to manufacture, assemble, test, and package our semiconductor products. 
+
+Specifically, Taiwan Semiconductor Manufacturing Company Limited (TSMC) is our primary and sole foundry for fabricating advanced GPU compute dies, including all Hopper and Blackwell semiconductor dies. Our advanced packaging relies on TSMC's proprietary Chip-on-Wafer-on-Substrate (CoWoS) advanced packaging technology. We purchase High Bandwidth Memory (HBM3e) modules from SK Hynix Inc. and Micron Technology, Inc., which are shipped directly to TSMC packaging facilities for 2.5D integration onto silicon interposers.
+
+Following wafer fabrication and packaging at TSMC, our GPUs and NVLink network switches are integrated into board-level assemblies and HGX reference architectures by contract electronics manufacturers, principally Hon Hai Precision Industry Co., Ltd. (Foxconn) and Wistron Corporation. 
+
+OEM and Enterprise Server Distribution
+We sell our HGX platforms, PCIe accelerator boards, and DGX SuperPOD systems to original equipment manufacturers (OEMs) and enterprise server integrators. Super Micro Computer, Inc. (Supermicro) is a key enterprise partner that designs high-density, liquid-cooled modular server architectures that incorporate NVIDIA HGX H100 and H200 platforms. These systems are subsequently deployed in hyperscale data center facilities operated by Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform, and specialized cloud provider CoreWeave.
+
+ITEM 1A. RISK FACTORS
+
+We are exposed to severe single-source manufacturing risks through TSMC.
+We rely on TSMC to manufacture our most advanced semiconductor chips. TSMC produces these chips at its wafer fabrication facilities located primarily in Hsinchu and Tainan, Taiwan. Any disruption to operations at TSMC's Tainan facilities—arising from earthquakes, typhoons, seasonal drought, electrical blackout, or geopolitical instability in the Taiwan Strait—would halt our ability to supply Hopper and Blackwell GPUs. TSMC's operations in turn depend on specialized photolithography equipment manufactured solely by ASML Holding N.V. in the Netherlands. Any export restrictions, supply chain bottlenecks, or component shortages at ASML that delay EUV lithography tool shipments to TSMC directly constrain TSMC's wafer capacity, creating severe allocation backlogs for NVIDIA.
+
+Advanced packaging capacity constraints (CoWoS) may restrict our revenue growth.
+Even if raw silicon wafer fab capacity is sufficient, the availability of our products is constrained by CoWoS advanced packaging capacity at TSMC. The assembly of HBM memory from SK Hynix with our GPU dies on silicon interposers has experienced tight industry-wide capacity constraints.
+
+Concentration of contract manufacturing in Foxconn facilities in Taiwan and China.
+Our board-level assembly and server integration partners, notably Foxconn, operate assembly facilities in Taiwan, mainland China, and Mexico. Any disruption in trade policies, regional tariffs, or labor shortages affecting Foxconn's manufacturing operations would delay the delivery of finished server trays to Supermicro and tier-1 hyperscale cloud operators.
+

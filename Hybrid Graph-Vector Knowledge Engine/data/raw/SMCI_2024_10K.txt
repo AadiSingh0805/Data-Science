@@ -1,0 +1,32 @@
+UNITED STATES SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, D.C. 20549
+FORM 10-K
+ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+FOR THE FISCAL YEAR ENDED JUNE 30, 2024
+COMMISSION FILE NUMBER 001-33383
+SUPER MICRO COMPUTER, INC.
+
+PART I
+
+ITEM 1. BUSINESS
+
+Business Overview
+Super Micro Computer, Inc. (Supermicro) is a Silicon Valley-based provider of accelerated computing platforms, modular server systems, and complete liquid-cooled data center cluster solutions. Our systems are optimized for enterprise Artificial Intelligence, High Performance Computing (HPC), and 5G telecommunication infrastructure.
+
+Silicon and GPU Component Allocation
+Our enterprise AI servers, including our 4U and 8U rack-scale clusters, are built around GPU and accelerator architectures designed by NVIDIA Corporation. We integrate NVIDIA Hopper H100, H200, and Blackwell B200 systems, as well as HGX carrier boards and NVLink networking fabrics. We also design systems incorporating server microprocessors from Intel Corporation and Advanced Micro Devices (AMD).
+
+Manufacturing and System Integration
+We manufacture and integrate our modular server chassis, power supplies, and liquid-cooling manifolds primarily at our corporate headquarters in San Jose, California, and our manufacturing campuses in Taiwan and the Netherlands. We rely on Foxconn and specialized sheet metal and electronic sub-contractors for raw PCB motherboards and precision chassis parts.
+
+Customers and Hyperscale Deployment
+Our complete AI server clusters are delivered to leading cloud service providers, including Amazon Web Services, Microsoft Azure, Google Cloud, CoreWeave, and international enterprise data center operators.
+
+ITEM 1A. RISK FACTORS
+
+We depend heavily on key component allocations from NVIDIA.
+A substantial portion of our revenue growth is driven by demand for AI server platforms incorporating NVIDIA GPUs. NVIDIA procures its GPU silicon from TSMC and contract manufacturing through Foxconn. If NVIDIA experiences supply constraints, wafer allocation cuts at TSMC, or downstream manufacturing delays from Foxconn, Supermicro cannot procure necessary HGX baseboards, resulting in immediate order cancellations and lost revenue to cloud customers.
+
+Thermal management and liquid cooling supply chain dependencies.
+Our next-generation AI clusters require direct-to-chip liquid cooling manifolds and coolant distribution units (CDUs). We depend on a concentrated set of specialized hydraulic and thermal suppliers. Any supply shortage in quick-disconnect couplings or coolant pumps halts server assembly lines.
+

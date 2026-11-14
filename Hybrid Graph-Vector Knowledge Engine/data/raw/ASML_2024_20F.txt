@@ -1,0 +1,29 @@
+UNITED STATES SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, D.C. 20549
+FORM 20-F
+ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+FOR THE FISCAL YEAR ENDED DECEMBER 31, 2023
+COMMISSION FILE NUMBER 001-33463
+ASML HOLDING N.V.
+
+PART I
+
+ITEM 4. INFORMATION ON THE COMPANY
+
+Business Overview
+ASML Holding N.V. is the world leader in the manufacture of advanced photolithography systems for the semiconductor industry. Photolithography systems project circuit patterns onto silicon wafers using ultraviolet light. We manufacture Deep Ultraviolet (DUV) immersion lithography systems and are the sole worldwide commercial manufacturer of Extreme Ultraviolet (EUV) photolithography scanners (Twinscan NXE:3600D, NXE:3800E, and High-NA EXE:5000).
+
+Strategic Customers and Foundries
+Our primary customers are leading semiconductor manufacturers, including TSMC, Intel Corporation, and Samsung Electronics. TSMC represents our largest single customer by revenue, utilizing dozens of EUV scanners across its Taiwanese gigafabs to manufacture cutting-edge chips for NVIDIA and Apple.
+
+Supply Chain and Critical Optical Components
+Our EUV scanners contain hundreds of thousands of specialized parts sourced from a concentrated global supplier network. In particular, we depend entirely on Carl Zeiss SMT GmbH (Zeiss) in Oberkochen, Germany, as our sole source for precision projection optical mirrors and illumination systems. Without Zeiss optics, ASML cannot build or ship EUV lithography systems.
+
+ITEM 3. KEY INFORMATION - RISK FACTORS
+
+We depend exclusively on single-source suppliers, notably Carl Zeiss.
+Carl Zeiss is our sole supplier for the ultra-smooth mirrors and illumination optics required for EUV lithography. If Zeiss experiences industrial accidents, cleanroom contaminations, or factory shutdowns at its German facilities, our entire EUV delivery schedule collapses, impacting foundry capacity worldwide at TSMC and Intel.
+
+Export controls and geopolitical tensions.
+Our lithography systems are subject to export regulations administered by the Dutch government and the United States Bureau of Industry and Security (BIS). Heightened geopolitical tensions between the US and China have led to prohibitions on shipments of advanced DUV and all EUV lithography systems to Chinese customers, introducing revenue volatility and supply chain rerouting.
+

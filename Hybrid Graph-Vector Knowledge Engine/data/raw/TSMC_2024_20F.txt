@@ -1,0 +1,31 @@
+UNITED STATES SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, D.C. 20549
+FORM 20-F
+ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+FOR THE FISCAL YEAR ENDED DECEMBER 31, 2023
+COMMISSION FILE NUMBER 001-14700
+TAIWAN SEMICONDUCTOR MANUFACTURING COMPANY LIMITED (TSMC)
+
+PART I
+
+ITEM 4. INFORMATION ON THE COMPANY
+
+Business Overview
+TSMC is the world's largest dedicated semiconductor foundry. We manufacture integrated circuits for customers based on their proprietary IC designs. Our advanced manufacturing process technologies include 5-nanometer (N5), 4-nanometer (N4), 3-nanometer (N3), and development of 2-nanometer (N2) nanosheet transistors. Major customers utilizing our leading-edge fabrication nodes include Apple Inc., NVIDIA Corporation, Advanced Micro Devices, Inc. (AMD), and Qualcomm Incorporated.
+
+Manufacturing Infrastructure and Technology Dependency
+Our primary manufacturing facilities are located in the Hsinchu Science Park, Central Taiwan Science Park in Taichung, and Southern Taiwan Science Park in Tainan. 
+
+To maintain production of sub-7nm wafers, TSMC depends on Extreme Ultraviolet (EUV) lithography systems. ASML Holding N.V. (ASML) is currently our sole supplier of EUV photolithography scanners (including Twinscan NXE and EXE systems). Without continuous delivery, optical recalibration, and maintenance of EUV scanners from ASML, we cannot produce advanced wafers for Apple's A-series and M-series processors or NVIDIA's Hopper and Blackwell architecture GPUs. In addition, our advanced packaging facilities utilize precision optical components and chemical mechanical planarization slurries sourced from specialized Japanese and German chemical suppliers.
+
+Advanced Packaging: CoWoS and InFO
+We offer advanced packaging solutions, including Chip-on-Wafer-on-Substrate (CoWoS) for high-performance computing (HPC) and Integrated Fan-Out (InFO) for mobile applications. CoWoS integrates multi-die silicon architectures with High Bandwidth Memory (HBM) supplied by SK Hynix and Micron.
+
+ITEM 3. KEY INFORMATION - RISK FACTORS
+
+Geographic concentration of manufacturing facilities in Taiwan.
+Most of our manufacturing capacity is concentrated in Taiwan. Taiwan is subject to seismic activity, typhoons, seasonal water shortages, and electrical grid instability. An earthquake centered near the Tainan Science Park could disrupt our cleanrooms, damage precision lithography calibration, and temporarily shut down production lines for our largest customers, including NVIDIA and Apple.
+
+Sole dependency on ASML for critical EUV lithography tooling.
+ASML is our sole source for EUV photolithography machines. The lead time for an EUV machine from ASML ranges from 18 to 24 months due to complex supply chains involving optics from Carl Zeiss. If ASML encounters component delays, factory fires, or international regulatory export restrictions, TSMC would be unable to expand its N3 and N2 capacity, halting production expansion for NVIDIA and Apple.
+

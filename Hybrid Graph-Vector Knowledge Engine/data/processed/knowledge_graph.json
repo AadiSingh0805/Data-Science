@@ -1,0 +1,300 @@
+{
+  "entities": [
+    {
+      "id": "company:apple_inc",
+      "name": "Apple Inc.",
+      "entity_type": "COMPANY",
+      "description": ""
+    },
+    {
+      "id": "company:tsmc",
+      "name": "TSMC",
+      "entity_type": "COMPANY",
+      "description": ""
+    },
+    {
+      "id": "company:hon_hai_precision_foxconn",
+      "name": "Hon Hai Precision (Foxconn)",
+      "entity_type": "COMPANY",
+      "description": ""
+    },
+    {
+      "id": "facility:foxconn_zhengzhou_mega-facility",
+      "name": "Foxconn Zhengzhou Mega-Facility",
+      "entity_type": "FACILITY",
+      "description": ""
+    },
+    {
+      "id": "facility:tainan_science_park_fab",
+      "name": "Tainan Science Park Fab",
+      "entity_type": "FACILITY",
+      "description": ""
+    },
+    {
+      "id": "geo_location:taiwan",
+      "name": "Taiwan",
+      "entity_type": "GEO_LOCATION",
+      "description": ""
+    },
+    {
+      "id": "company:asml_holding_nv",
+      "name": "ASML Holding N.V.",
+      "entity_type": "COMPANY",
+      "description": ""
+    },
+    {
+      "id": "company:carl_zeiss_smt",
+      "name": "Carl Zeiss SMT",
+      "entity_type": "COMPANY",
+      "description": ""
+    },
+    {
+      "id": "risk_event:geopolitical_export_restrictions",
+      "name": "Geopolitical Export Restrictions",
+      "entity_type": "RISK_EVENT",
+      "description": ""
+    },
+    {
+      "id": "company:nvidia_corporation",
+      "name": "NVIDIA Corporation",
+      "entity_type": "COMPANY",
+      "description": ""
+    },
+    {
+      "id": "company:sk_hynix_inc",
+      "name": "SK Hynix Inc.",
+      "entity_type": "COMPANY",
+      "description": ""
+    },
+    {
+      "id": "company:super_micro_computer_inc",
+      "name": "Super Micro Computer, Inc.",
+      "entity_type": "COMPANY",
+      "description": ""
+    },
+    {
+      "id": "risk_event:seismic_&_earthquake_hazards",
+      "name": "Seismic & Earthquake Hazards",
+      "entity_type": "RISK_EVENT",
+      "description": ""
+    },
+    {
+      "id": "risk_event:electrical_grid_instability",
+      "name": "Electrical Grid Instability",
+      "entity_type": "RISK_EVENT",
+      "description": ""
+    },
+    {
+      "id": "company:amazon_web_services_aws",
+      "name": "Amazon Web Services (AWS)",
+      "entity_type": "COMPANY",
+      "description": ""
+    },
+    {
+      "id": "company:microsoft_azure",
+      "name": "Microsoft Azure",
+      "entity_type": "COMPANY",
+      "description": ""
+    },
+    {
+      "id": "company:coreweave",
+      "name": "CoreWeave",
+      "entity_type": "COMPANY",
+      "description": ""
+    },
+    {
+      "id": "company:google_cloud_platform",
+      "name": "Google Cloud Platform",
+      "entity_type": "COMPANY",
+      "description": ""
+    },
+    {
+      "id": "risk_event:euv_lithography_lead_time_constraints",
+      "name": "EUV Lithography Lead Time Constraints",
+      "entity_type": "RISK_EVENT",
+      "description": ""
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "company:tsmc",
+      "target_id": "company:apple_inc",
+      "relation_type": "MANUFACTURES_FOR",
+      "verbatim_quote": "Supply Chain and Manufacturing\nSubstantially all of our custom silicon microprocessors are manufactured by a single foundry partner: Taiwan Semiconductor Manufacturing Company (TSMC).",
+      "source_doc_id": "AAPL_2024_10K.txt",
+      "chunk_id": 0,
+      "confidence": 1.0
+    },
+    {
+      "source_id": "company:hon_hai_precision_foxconn",
+      "target_id": "facility:foxconn_zhengzhou_mega-facility",
+      "relation_type": "LOCATED_IN",
+      "verbatim_quote": "(trading as Foxconn), with significant assembly operations concentrated in Zhengzhou, Henan Province, China, as well as facilities in Shenzhen and India.",
+      "source_doc_id": "AAPL_2024_10K.txt",
+      "chunk_id": 1,
+      "confidence": 1.0
+    },
+    {
+      "source_id": "company:tsmc",
+      "target_id": "facility:tainan_science_park_fab",
+      "relation_type": "LOCATED_IN",
+      "verbatim_quote": "If TSMC experiences manufacturing disruptions at its fabrication plants in Hsinchu or Tainan due to natural disasters, facility accidents, labor disputes, or cross-strait geopolitical conflicts between China and Taiwan, our ability to supply iPhones, iPads, and Mac computers would be severely curtailed.",
+      "source_doc_id": "AAPL_2024_10K.txt",
+      "chunk_id": 2,
+      "confidence": 1.0
+    },
+    {
+      "source_id": "company:tsmc",
+      "target_id": "geo_location:taiwan",
+      "relation_type": "LOCATED_IN",
+      "verbatim_quote": "If TSMC experiences manufacturing disruptions at its fabrication plants in Hsinchu or Tainan due to natural disasters, facility accidents, labor disputes, or cross-strait geopolitical conflicts between China and Taiwan, our ability to supply iPhones, iPads, and Mac computers would be severely curtailed.",
+      "source_doc_id": "AAPL_2024_10K.txt",
+      "chunk_id": 2,
+      "confidence": 1.0
+    },
+    {
+      "source_id": "company:asml_holding_nv",
+      "target_id": "company:tsmc",
+      "relation_type": "SUPPLIES_TO",
+      "verbatim_quote": "Furthermore, TSMC's manufacturing capability is inextricably linked to equipment availability from photolithography supplier ASML.",
+      "source_doc_id": "AAPL_2024_10K.txt",
+      "chunk_id": 2,
+      "confidence": 1.0
+    },
+    {
+      "source_id": "company:hon_hai_precision_foxconn",
+      "target_id": "company:apple_inc",
+      "relation_type": "MANUFACTURES_FOR",
+      "verbatim_quote": "The assembly of our flagship iPhone models is heavily concentrated at Foxconn's mega-facility in Zhengzhou, China.",
+      "source_doc_id": "AAPL_2024_10K.txt",
+      "chunk_id": 2,
+      "confidence": 1.0
+    },
+    {
+      "source_id": "company:carl_zeiss_smt",
+      "target_id": "company:asml_holding_nv",
+      "relation_type": "SUPPLIES_TO",
+      "verbatim_quote": "In particular, we depend entirely on Carl Zeiss SMT GmbH (Zeiss) in Oberkochen, Germany, as our sole source for precision projection optical mirrors and illumination systems.",
+      "source_doc_id": "ASML_2024_20F.txt",
+      "chunk_id": 1,
+      "confidence": 1.0
+    },
+    {
+      "source_id": "company:asml_holding_nv",
+      "target_id": "risk_event:geopolitical_export_restrictions",
+      "relation_type": "EXPOSED_TO_RISK",
+      "verbatim_quote": "Our lithography systems are subject to export regulations administered by the Dutch government and the United States Bureau of Industry and Security (BIS).",
+      "source_doc_id": "ASML_2024_20F.txt",
+      "chunk_id": 2,
+      "confidence": 1.0
+    },
+    {
+      "source_id": "company:tsmc",
+      "target_id": "company:nvidia_corporation",
+      "relation_type": "MANUFACTURES_FOR",
+      "verbatim_quote": "Specifically, Taiwan Semiconductor Manufacturing Company Limited (TSMC) is our primary and sole foundry for fabricating advanced GPU compute dies, including all Hopper and Blackwell semiconductor dies.",
+      "source_doc_id": "NVDA_2024_10K.txt",
+      "chunk_id": 1,
+      "confidence": 1.0
+    },
+    {
+      "source_id": "company:sk_hynix_inc",
+      "target_id": "company:tsmc",
+      "relation_type": "SUPPLIES_TO",
+      "verbatim_quote": "We purchase High Bandwidth Memory (HBM3e) modules from SK Hynix Inc.",
+      "source_doc_id": "NVDA_2024_10K.txt",
+      "chunk_id": 1,
+      "confidence": 1.0
+    },
+    {
+      "source_id": "company:nvidia_corporation",
+      "target_id": "company:super_micro_computer_inc",
+      "relation_type": "SUPPLIES_TO",
+      "verbatim_quote": "(Supermicro) is a key enterprise partner that designs high-density, liquid-cooled modular server architectures that incorporate NVIDIA HGX H100 and H200 platforms.",
+      "source_doc_id": "NVDA_2024_10K.txt",
+      "chunk_id": 2,
+      "confidence": 1.0
+    },
+    {
+      "source_id": "company:tsmc",
+      "target_id": "risk_event:seismic_&_earthquake_hazards",
+      "relation_type": "EXPOSED_TO_RISK",
+      "verbatim_quote": "Any disruption to operations at TSMC's Tainan facilities\u2014arising from earthquakes, typhoons, seasonal drought, electrical blackout, or geopolitical instability in the Taiwan Strait\u2014would halt our ability to supply Hopper and Blackwell GPUs.",
+      "source_doc_id": "NVDA_2024_10K.txt",
+      "chunk_id": 3,
+      "confidence": 1.0
+    },
+    {
+      "source_id": "company:tsmc",
+      "target_id": "risk_event:electrical_grid_instability",
+      "relation_type": "EXPOSED_TO_RISK",
+      "verbatim_quote": "Any disruption to operations at TSMC's Tainan facilities\u2014arising from earthquakes, typhoons, seasonal drought, electrical blackout, or geopolitical instability in the Taiwan Strait\u2014would halt our ability to supply Hopper and Blackwell GPUs.",
+      "source_doc_id": "NVDA_2024_10K.txt",
+      "chunk_id": 3,
+      "confidence": 1.0
+    },
+    {
+      "source_id": "company:super_micro_computer_inc",
+      "target_id": "company:amazon_web_services_aws",
+      "relation_type": "SUPPLIES_TO",
+      "verbatim_quote": "Customers and Hyperscale Deployment\nOur complete AI server clusters are delivered to leading cloud service providers, including Amazon Web Services, Microsoft Azure, Google Cloud, CoreWeave, and international enterprise data center operators.",
+      "source_doc_id": "SMCI_2024_10K.txt",
+      "chunk_id": 1,
+      "confidence": 1.0
+    },
+    {
+      "source_id": "company:super_micro_computer_inc",
+      "target_id": "company:microsoft_azure",
+      "relation_type": "SUPPLIES_TO",
+      "verbatim_quote": "Customers and Hyperscale Deployment\nOur complete AI server clusters are delivered to leading cloud service providers, including Amazon Web Services, Microsoft Azure, Google Cloud, CoreWeave, and international enterprise data center operators.",
+      "source_doc_id": "SMCI_2024_10K.txt",
+      "chunk_id": 1,
+      "confidence": 1.0
+    },
+    {
+      "source_id": "company:super_micro_computer_inc",
+      "target_id": "company:coreweave",
+      "relation_type": "SUPPLIES_TO",
+      "verbatim_quote": "Customers and Hyperscale Deployment\nOur complete AI server clusters are delivered to leading cloud service providers, including Amazon Web Services, Microsoft Azure, Google Cloud, CoreWeave, and international enterprise data center operators.",
+      "source_doc_id": "SMCI_2024_10K.txt",
+      "chunk_id": 1,
+      "confidence": 1.0
+    },
+    {
+      "source_id": "company:super_micro_computer_inc",
+      "target_id": "company:google_cloud_platform",
+      "relation_type": "SUPPLIES_TO",
+      "verbatim_quote": "Customers and Hyperscale Deployment\nOur complete AI server clusters are delivered to leading cloud service providers, including Amazon Web Services, Microsoft Azure, Google Cloud, CoreWeave, and international enterprise data center operators.",
+      "source_doc_id": "SMCI_2024_10K.txt",
+      "chunk_id": 1,
+      "confidence": 1.0
+    },
+    {
+      "source_id": "company:hon_hai_precision_foxconn",
+      "target_id": "company:nvidia_corporation",
+      "relation_type": "MANUFACTURES_FOR",
+      "verbatim_quote": "NVIDIA procures its GPU silicon from TSMC and contract manufacturing through Foxconn.",
+      "source_doc_id": "SMCI_2024_10K.txt",
+      "chunk_id": 1,
+      "confidence": 1.0
+    },
+    {
+      "source_id": "company:nvidia_corporation",
+      "target_id": "risk_event:seismic_&_earthquake_hazards",
+      "relation_type": "EXPOSED_TO_RISK",
+      "verbatim_quote": "An earthquake centered near the Tainan Science Park could disrupt our cleanrooms, damage precision lithography calibration, and temporarily shut down production lines for our largest customers, including NVIDIA and Apple.",
+      "source_doc_id": "TSMC_2024_20F.txt",
+      "chunk_id": 2,
+      "confidence": 1.0
+    },
+    {
+      "source_id": "company:asml_holding_nv",
+      "target_id": "risk_event:euv_lithography_lead_time_constraints",
+      "relation_type": "EXPOSED_TO_RISK",
+      "verbatim_quote": "The lead time for an EUV machine from ASML ranges from 18 to 24 months due to complex supply chains involving optics from Carl Zeiss.",
+      "source_doc_id": "TSMC_2024_20F.txt",
+      "chunk_id": 2,
+      "confidence": 1.0
+    }
+  ]
+}
